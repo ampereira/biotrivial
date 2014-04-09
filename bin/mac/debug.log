@@ -1,0 +1,1170 @@
+
+                         ''~``                          
+                        ( o o )                         
++------------------.oooO--(_)--Oooo.------------------+ 
+|                                                     | 
+|                .-------------------.                | 
+|                | I N D I E  L I B  |                | 
+|                .-------------------.                | 
+|                    .oooO                            | 
+|                    (   )   Oooo.                    | 
++---------------------\ (----(   )--------------------+
+                       \_)    ) /                      
+                             (_/                        
+Indielib version: 0.5.1
+
+[Init time]: (Friday, 4 of April 2014)
+
+[22:30:06] [ BEGIN ] -- Creating Render --
+                     {
+           [ INFO  ]    Requested Window Height: 700
+           [ INFO  ]    Requested Window Width:  1076
+           [ INFO  ]    Requested Window Bpp:  32
+           [ INFO  ]    Requested Window FullScreen:  0
+           [ INFO  ]    Requested Window Double buffer:  1
+           [  OK   ]    Initiating OpenGL SDL Context Parameters
+           [  OK   ]    OpenGL Context Parameters Initated
+[22:30:06] [ BEGIN ]    -- Creating SDL window --
+                        {
+           [  OK   ]       Window created
+           [ INFO  ]       Mode: Window
+                        }
+[22:30:06] [  END  ]    Window OK [Elapsed time = 0.03 seg]
+[22:30:06] [ BEGIN ]    -- Creating OpenGL Render --
+                        {
+           [  OK   ]       Creating OpenGL context
+           [  OK   ]       OpenGL context created
+           [  OK   ]       Checking created OpenGL context pixel format
+           [ INFO  ]       Created GL context R size:  8
+           [ INFO  ]       Created GL context G size:  8
+           [ INFO  ]       Created GL context B size:  8
+           [ INFO  ]       Created GL context A size:  8
+           [ INFO  ]       Created GL context Depth size:  24
+           [ INFO  ]       Created GL context Stencil size:  8
+           [WARNING]       Different GL context pixel format used
+[22:30:06] [ BEGIN ]       -- Hardware information --
+                           {
+           [ INFO  ]          OpenGL version: GL_VERSION_1_5
+           [ INFO  ]          Mark: NO DATA
+           [ INFO  ]          Chip: NO DATA
+           [ INFO  ]          Primitive antialising: No
+           [ INFO  ]          Maximum texture size: 8192 x 8192
+           [ INFO  ]          Texture units: 8                           }
+[22:30:06] [  END  ]       Hardware Ok [Elapsed time = 0 seg]
+                        }
+[22:30:06] [  END  ]    OpenGL Render Created [Elapsed time = 0.088 seg]
+[22:30:06] [ BEGIN ]    -- Initializing ImageManager --
+                        {
+           [  OK   ]       Preparing ImageManager
+           [ INFO  ]       Using FreeImage version:  3.15.3
+           [ INFO  ]       Copyright:  This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+                        }
+[22:30:06] [  END  ]    ImageManager Initialised [Elapsed time = 0 seg]
+[22:30:06] [ BEGIN ]    -- Initializing SurfaceManager --
+                        {
+           [  OK   ]       Checking IND_Render
+           [  OK   ]       Checking IND_ImageManager
+                        }
+[22:30:06] [  END  ]    SurfaceManager OK [Elapsed time = 0 seg]
+[22:30:06] [ BEGIN ]    -- Initializing AnimationManager --
+                        {
+           [  OK   ]       SurfaceManager Ok
+           [  OK   ]       ImageManager Ok
+                        }
+[22:30:06] [  END  ]    AnimationManager OK [Elapsed time = 0 seg]
+[22:30:06] [ BEGIN ]    -- Initializing FontManager --
+                        {
+           [  OK   ]       SurfaceManager Ok
+           [  OK   ]       ImageManager Ok
+                        }
+[22:30:06] [  END  ]    FontManager OK [Elapsed time = 0 seg]
+[22:30:06] [ BEGIN ]    -- Initializing Entity2dManager --
+                        {
+           [  OK   ]       Preparing Entity2dManager
+           [  OK   ]        Checking IND_Render
+                        }
+[22:30:06] [  END  ]    Entity2dManager OK [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../resources/trivia_board.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 1150 x 700
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.019 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../resources/trivia_board.jpg
+           [  OK   ]       Image type converted to 32-bit RGB implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 1150 x 700
+           [ INFO  ]       Block size: 2048 x 1024
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 898 x 324
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.044 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../resources/trivia_board.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem1.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 287 x 355
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.003 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem1.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 287 x 355
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 225 x 157
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.009 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem1.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem2.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 495
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.005 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem2.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 495
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 17
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.004 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem2.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem3.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 243 x 337
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem3.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 243 x 337
+           [ INFO  ]       Block size: 256 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 13 x 175
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem3.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem4.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 276
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem4.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 276
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 236
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.004 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem4.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem5.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 272
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.003 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem5.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 272
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 240
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.004 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem5.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem6.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 356 x 296
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.003 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem6.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 356 x 296
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 156 x 216
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.004 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem6.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem7.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 288 x 392
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem7.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 288 x 392
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 224 x 120
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.005 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem7.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem8.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 278 x 400
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem8.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 278 x 400
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 234 x 112
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.004 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem8.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem9.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 186
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem9.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 186
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 70
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem9.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem10.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 320
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem10.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 320
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 192
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.004 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem10.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem11.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 190
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem11.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 190
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 66
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem11.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem12.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 225
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem12.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 225
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 31
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.003 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem12.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem13.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 225
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem13.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 225
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 31
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem13.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem14.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 285
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem14.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 285
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 227
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.003 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem14.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem15.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 261
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem15.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 261
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 251
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.004 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem15.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem16.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 232
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem16.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 232
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 24
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.003 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem16.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem17.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 240
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Identifica/Imagem17.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 240
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 16
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Identifica/Imagem17.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemA.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 224
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Distingue/ImagemA.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 224
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 32
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.003 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemA.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemB.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 141
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Distingue/ImagemB.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 141
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 115
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemB.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemC.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 170
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Distingue/ImagemC.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 170
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 86
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemC.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemD.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 244
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Distingue/ImagemD.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 244
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 12
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemD.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemE.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 150
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Distingue/ImagemE.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 150
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 106
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.003 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemE.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemF.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 280
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Distingue/ImagemF.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 280
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 232
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.004 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemF.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemG.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 266
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.003 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Distingue/ImagemG.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 266
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 246
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.005 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemG.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemH.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 196
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Distingue/ImagemH.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 196
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 60
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemH.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemI.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 231
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.003 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Distingue/ImagemI.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 231
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 25
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.003 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemI.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemJ.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 400 x 497
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.004 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Distingue/ImagemJ.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 400 x 497
+           [ INFO  ]       Block size: 512 x 512
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 112 x 15
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.005 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemJ.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemK.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 292 x 243
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../questions/Distingue/ImagemK.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 292 x 243
+           [ INFO  ]       Block size: 512 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 220 x 13
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../questions/Distingue/ImagemK.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../resources/piece_empty.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 98 x 98
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../resources/piece_empty.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 98 x 98
+           [ INFO  ]       Block size: 128 x 128
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 30 x 30
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../resources/piece_empty.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../resources/piece_empty.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 98 x 98
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../resources/piece_empty.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 98 x 98
+           [ INFO  ]       Block size: 128 x 128
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 30 x 30
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../resources/piece_empty.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../resources/piece_empty.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 98 x 98
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../resources/piece_empty.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 98 x 98
+           [ INFO  ]       Block size: 128 x 128
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 30 x 30
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../resources/piece_empty.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../resources/piece_empty.jpg
+           [ INFO  ]       Extension: jpg
+           [ INFO  ]       Size: 98 x 98
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../resources/piece_empty.jpg
+           [  OK   ]       Image type converted to 32-bit RGBA implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 98 x 98
+           [ INFO  ]       Block size: 128 x 128
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 30 x 30
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../resources/piece_empty.jpg
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../resources/Number-1-icon.png
+           [ INFO  ]       Extension: png
+           [ INFO  ]       Size: 32 x 32
+           [ INFO  ]       Bpp: 4
+           [ INFO  ]       Format: IND_RGBA
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../resources/Number-1-icon.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 32 x 32
+           [ INFO  ]       Block size: 32 x 32
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 0 x 0
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../resources/Number-1-icon.png
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../resources/Number-2-icon.png
+           [ INFO  ]       Extension: png
+           [ INFO  ]       Size: 32 x 32
+           [ INFO  ]       Bpp: 4
+           [ INFO  ]       Format: IND_RGBA
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../resources/Number-2-icon.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 32 x 32
+           [ INFO  ]       Block size: 32 x 32
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 0 x 0
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../resources/Number-2-icon.png
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../resources/Number-3-icon.png
+           [ INFO  ]       Extension: png
+           [ INFO  ]       Size: 32 x 32
+           [ INFO  ]       Bpp: 4
+           [ INFO  ]       Format: IND_RGBA
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../resources/Number-3-icon.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 32 x 32
+           [ INFO  ]       Block size: 32 x 32
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 0 x 0
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../resources/Number-3-icon.png
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../resources/Number-4-icon.png
+           [ INFO  ]       Extension: png
+           [ INFO  ]       Size: 32 x 32
+           [ INFO  ]       Bpp: 4
+           [ INFO  ]       Format: IND_RGBA
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../../resources/Number-4-icon.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 32 x 32
+           [ INFO  ]       Block size: 32 x 32
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 0 x 0
+                        }
+[22:30:07] [  END  ]    Surface created [Elapsed time = 0.001 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../resources/Number-4-icon.png
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 0
+           [ INFO  ]       Layer: 0
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 1
+           [ INFO  ]       Layer: 0
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 2
+           [ INFO  ]       Layer: 0
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 3
+           [ INFO  ]       Layer: 0
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 4
+           [ INFO  ]       Layer: 0
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 5
+           [ INFO  ]       Layer: 0
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 6
+           [ INFO  ]       Layer: 0
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 7
+           [ INFO  ]       Layer: 0
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 8
+           [ INFO  ]       Layer: 0
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../../resources/font_small.png
+           [ INFO  ]       Extension: png
+           [ INFO  ]       Size: 256 x 256
+           [ INFO  ]       Bpp: 4
+           [ INFO  ]       Format: IND_RGBA
+                        }
+[22:30:07] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[22:30:07] [ BEGIN ]    -- Parsing and loading font --
+                        {
+           [ INFO  ]       File name: ../../resources/font_small.xml
+[22:30:07] [ BEGIN ]       -- Creating surface --
+                           {
+           [ INFO  ]          From image: ../../resources/font_small.png
+           [ INFO  ]          Type: IND_ALPHA
+           [ INFO  ]          Quality: IND_32
+           [ INFO  ]          Image size: 256 x 256
+           [ INFO  ]          Block size: 256 x 256
+           [ INFO  ]          Number of blocks: 1 x 1
+           [ INFO  ]          Spare (Right | Down): 0 x 0
+                           }
+[22:30:07] [  END  ]       Surface created [Elapsed time = 0.002 seg]
+                        }
+[22:30:07] [  END  ]    Font parsed and loaded [Elapsed time = 0.003 seg]
+[22:30:07] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../../resources/font_small.png
+                        }
+[22:30:07] [  END  ]    Ok [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 9
+           [ INFO  ]       Layer: 1
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 10
+           [ INFO  ]       Layer: 1
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 11
+           [ INFO  ]       Layer: 1
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 12
+           [ INFO  ]       Layer: 1
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 13
+           [ INFO  ]       Layer: 1
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 14
+           [ INFO  ]       Layer: 1
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[22:30:07] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 15
+           [ INFO  ]       Layer: 0
+                        }
+[22:30:07] [  END  ]    2d entity added [Elapsed time = 0 seg]
